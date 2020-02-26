@@ -1,0 +1,36 @@
+.tabs {
+  ul {
+    padding: 0;
+    background-color: #f2f2f2;
+
+    /* :not(:last-child) {
+      border-right: 1px solid #ddd;
+      margin-right: 1rem;
+    } */
+
+    .trigger {
+      list-style-type: none;
+      margin: 0.4rem;
+      display: inline-block;
+      padding: 1rem 2rem;
+      cursor: pointer;
+
+      &.active {
+        background-color: $color-orange;
+        color: $color-white;
+      }
+    }
+  }
+
+  .content {
+    display: none;
+    background-color: #fbfbfb;
+    padding: 1rem 2rem;
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+
+    &.active {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.toast {
+  width: 20rem;
+  padding: 2rem;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  margin-left: -12rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+  background-color: rgba($color-orange, 0.8);
+  color: $color-white;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: -100%;
+  transition: all 0.2s;
+
+  &.active {
+    margin-top: 0;
+  }
+}

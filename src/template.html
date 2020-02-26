@@ -7,14 +7,94 @@
     <title>My uiLibrary</title>
   </head>
   <body>
-    <h1 class="container text-center">
+    <div class="container">
+      <!-- Tooltip -->
+      <h2 class="text-center">Tooltip</h2>
+      <br />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non provident
         consectetur iusto suscipit, odit dolor laboriosam quia repellendus
         dolorum delectus minima corporis corrupti reiciendis,
         <span class="tooltip" data-message="I'm tooltip">Hover here!</span> vero
         similique facere fuga!
+        <span class="tooltip" data-message="I'm tooltip">Hover here!</span>
       </p>
-    </h1>
+      <!-- Tooltip -->
+      <br /><br />
+      <!-- Dropdown -->
+      <h2 class="text-center">Collapse</h2>
+      <div class="collapse">
+        <div class="trigger">Awesome t-shirt designs</div>
+        <div class="content">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+            perspiciatis beatae at eius! Nam itaque dolorum harum aliquid aut
+            omnis enim voluptatibus tempore necessitatibus iure? Non magni
+            magnam animi eos.
+          </p>
+        </div>
+      </div>
+      <div class="collapse">
+        <div class="trigger">Awesome shoes designs</div>
+        <div class="content">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+            perspiciatis beatae at eius! Nam itaque dolorum harum aliquid aut
+            omnis enim voluptatibus tempore necessitatibus iure? Non magni
+            magnam animi eos.
+          </p>
+        </div>
+      </div>
+      <!-- Dropdown -->
+      <br /><br />
+      <!-- Tabs -->
+      <h2 class="text-center">Tabs</h2>
+      <br />
+      <div class="tabs">
+        <ul>
+          <li class="trigger active" data-target="#about">About</li>
+          <li class="trigger" data-target="#delivery">Delivery info</li>
+          <li class="trigger" data-target="#returns">Returns info</li>
+        </ul>
+        <div id="about" class="content active">
+          <h3>About</h3>
+          <br />
+          <p>
+            About. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellat dolorem dignissimos numquam ex fugiat enim nesciunt natus,
+            quo in dolor consequuntur nisi repudiandae vel delectus quisquam?
+            Reiciendis harum excepturi iste!
+          </p>
+        </div>
+        <div id="delivery" class="content">
+          <h3>Delivery info</h3>
+          <br />
+          <p>
+            Delivery. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellat dolorem dignissimos numquam ex fugiat enim nesciunt natus,
+            quo in dolor consequuntur nisi repudiandae vel delectus quisquam?
+            Reiciendis harum excepturi iste!
+          </p>
+        </div>
+        <div id="returns" class="content">
+          <h3>Returns info</h3>
+          <br />
+          <p>
+            Returns. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellat dolorem dignissimos numquam ex fugiat enim nesciunt natus,
+            quo in dolor consequuntur nisi repudiandae vel delectus quisquam?
+            Reiciendis harum excepturi iste!
+          </p>
+        </div>
+      </div>
+      <!-- Tabs -->
+      <!-- Toasts -->
+      <br />
+      <h2 class="text-center">Toasts</h2>
+      <div class="text-center"
+        ><a href="#" class="btn toast-trigger" data-message="I'm toast!!">Toast!</a></text
+      >
+      <!-- Toasts -->
+    </div>
   </body>
 </html>

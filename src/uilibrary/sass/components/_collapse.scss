@@ -1,0 +1,31 @@
+.collapse {
+  .trigger {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+
+    &::after {
+      content: '>';
+      display: inline-block;
+      position: absolute;
+      right: 1.5rem;
+      transform: rotate(90deg) scale(0.5, 1);
+      font-weight: bold;
+      transition: transform 0.3s;
+    }
+
+    &.active {
+      &::after {
+        transform: rotate(-90deg) scale(0.5, 1);
+      }
+    }
+  }
+  .content {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}

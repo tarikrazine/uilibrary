@@ -1,5 +1,9 @@
 // @import '~bootstrap/scss/bootstrap'; // npm install --save bootstrap
-@import '../src/uilibrary/sass/abstracts/variables';
-@import '../src/uilibrary/sass/base/base';
-@import '../src/uilibrary/sass/base/utilities';
-@import '../src/uilibrary/sass/components/tooltip';
+@import './uilibrary/sass/abstracts/variables';
+@import './uilibrary/sass/base/base';
+@import './uilibrary/sass/base/utilities';
+@import './uilibrary/sass/components/tooltip';
+@import './uilibrary/sass/components/collapse';
+@import './uilibrary/sass/components/tabs';
+@import './uilibrary/sass/components/button';
+@import './uilibrary/sass/components/toast';

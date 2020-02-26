@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "MyuiLibrary",
   "version": "1.0.0",
-  "description": "My Webpack config",
+  "description": "MyuiLibrary",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ra-devweb/boilerplate.git"
+    "url": "git+https://github.com/ra-devweb/myuiLibrary.git"
   },
   "author": "Tarik Razine",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ra-devweb/boilerplate/issues"
+    "url": "https://github.com/ra-devweb/myuiLibrary/issues"
   },
-  "homepage": "https://github.com/ra-devweb/boilerplate#readme",
+  "homepage": "https://github.com/ra-devweb/myuiLibrary#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
